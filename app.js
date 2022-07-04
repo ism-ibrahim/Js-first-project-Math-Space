@@ -4,8 +4,9 @@ $(document).ready(function () {
 
     $('h2').click(function (e) { 
         e.preventDefault();
-        $('h2').$(1234);
+        $('h2').html('IBO');
     });
+
     
     
     
@@ -19,8 +20,6 @@ $(document).ready(function () {
         }
         a($('input').val())
     });
-
-console.log($('input').val);
 
 
 });
