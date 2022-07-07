@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     $('h2').click(function (e) { 
         e.preventDefault();
-        $('h2').html('IBO');
+        $('h2').html('Aleykum Salam');
     });
 
     
@@ -24,7 +24,7 @@ $(document).ready(function () {
 
     $('.btn').click(function (e) { 
         e.preventDefault();
-        $('.btn').html('BASDA ALA');
+        $('.btn').html('Completed');
     });
 
 });
