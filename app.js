@@ -2,13 +2,11 @@
 $(document).ready(function () {
 
 
-    $('h2').click(function (e) { 
-        e.preventDefault();
-        $('h2').html('Aleykum Salam');
-    });
+    // $('h2').click(function (e) { 
+    //     e.preventDefault();
+    //     $('h2').html('Congratulations');
+    // });
 
-    
-    
     
     $('.btn').click(function (e) {
         e.preventDefault();
@@ -24,7 +22,7 @@ $(document).ready(function () {
 
     $('.btn').click(function (e) { 
         e.preventDefault();
-        $('.btn').html('Completed');
+        $('.btn').html('Congratulations');
     });
 
 });
