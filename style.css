@@ -18,7 +18,7 @@ section {
   background-image: url("assets/Bg-img.jpg");
   background-position: center;
   background-size: cover;
-  height: 820px;
+  height: 830px;
 }
 #toyota .textbox h1 {
   font-size: 60px;
@@ -33,7 +33,7 @@ section {
   padding: 30px;
 }
 #toyota .btn {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   border: 1px solid #000;
   border-radius: 10px;
