@@ -19,7 +19,6 @@ section {
   background-image: url("assets/Bg-img.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: repeat-x;
   height: 830px;
 }
 #toyota .imgbox {
@@ -45,6 +44,10 @@ section {
   padding: 10px 30px;
   max-width: 265px;
   text-align: center;
+  background-color: rgba(255, 4, 4, 0.7490196078);
+}
+#toyota .btn:hover {
+  cursor: pointer;
   background-color: #ff0404;
 }
 #toyota input {
@@ -64,19 +67,18 @@ section {
   border-radius: 10px;
   background-color: #e9e7e7;
   min-width: 365px;
-  max-width: 1265px;
+  max-width: 1210px;
   min-height: 100px;
   margin: 10px 0;
 }
 #toyota .minibox h1 {
   display: inline-block;
   text-align: center;
-  font-size: 20px;
-  margin: 5px 5px;
+  font-size: 23px;
+  margin: 5px;
   border: 2px solid #ff0404;
   border-radius: 45px;
   padding: 5px;
-  width: 50px;
 }
 
 header {
