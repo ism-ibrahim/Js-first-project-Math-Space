@@ -1,7 +1,7 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .imgbox {
@@ -12,94 +12,68 @@ body {
 }
 
 section {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
-#toyota {
-  background-image: url("assets/Bg-img.jpg");
+#math {
+  background-image: url("assets/bg-img-math.jpeg");
   background-position: center;
   background-size: cover;
   height: 830px;
 }
-#toyota .imgbox {
-  width: 150px;
-}
-#toyota .textbox h1 {
+#math .textbox h1 {
   font-size: 60px;
   font-weight: 700;
-  color: #ff0404;
+  color: #0088ff;
   margin-top: 10px;
 }
-#toyota .textbox h2 {
+#math .textbox h2 {
   font-size: 45px;
   font-weight: 700;
-  color: #000;
+  color: #0088ff;
   padding: 30px;
 }
-#toyota .btn {
+#math .btn {
   font-size: 25px;
   font-weight: 700;
-  border: 1px solid #ff0404;
+  border: 1px solid #0088ff;
   border-radius: 10px;
   padding: 10px 30px;
   max-width: 265px;
   text-align: center;
-  background-color: rgba(255, 4, 4, 0.631372549);
+  background-color: #fff;
   margin-bottom: 25px;
 }
-#toyota .btn:hover {
+#math .btn:hover {
   cursor: pointer;
-  background-color: #ff0404;
+  background-color: #0088ff;
 }
-#toyota input {
+#math input {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin: 20px 0;
   padding: 10px 15px 15px 20px;
   border-radius: 5px;
   font-size: 25px;
   background-color: #fff;
-  border: 1px solid #ff0404;
+  border: 1px solid #0088ff;
   max-width: 300px;
 }
-#toyota .minibox {
-  border: 1px solid #ff0404;
+#math .minibox {
+  border: 1px solid #0088ff;
   border-radius: 10px;
   background-color: #e9e7e7;
-  min-width: 600px;
-  max-width: 1210px;
+  min-width: 252px;
+  max-width: 252px;
   min-height: 150px;
   margin: 10px 0;
 }
-#toyota .minibox h1 {
+#math .minibox h1 {
   display: inline-block;
   text-align: center;
   font-size: 23px;
   margin: 5px;
-  border: 2px solid #ff0404;
+  border: 2px solid #0088ff;
   border-radius: 45px;
-  padding: 5px;
-}
-
-header {
-  background-color: #212529;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  padding: 5px 0 10px;
-}
-header .menu .imgbox {
-  width: 60px;
-}
-header .menu nav {
-  margin-top: 15px;
-}
-header .menu nav a {
-  font-size: 18px;
-  color: #fff;
-  margin: 20px 18px 50px;
-}
-header .menu nav a:hover {
-  cursor: pointer;
-  color: #ff0404;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
