@@ -19,6 +19,7 @@ section {
   background-image: url("assets/bg-img-math.jpeg");
   background-position: center;
   background-size: cover;
+  background-repeat: repeat;
   height: 830px;
 }
 #math .textbox h1 {
@@ -34,30 +35,30 @@ section {
   padding: 30px;
 }
 #math .btn {
+  text-align: center;
   font-size: 25px;
   font-weight: 700;
   border: 1px solid #0088ff;
   border-radius: 10px;
-  padding: 10px 30px;
-  max-width: 265px;
-  text-align: center;
   background-color: #fff;
+  color: #0088ff;
+  max-width: 265px;
+  padding: 10px 30px;
   margin-bottom: 25px;
 }
 #math .btn:hover {
   cursor: pointer;
   background-color: #0088ff;
+  color: #fff;
 }
 #math input {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-  padding: 10px 15px 15px 20px;
-  border-radius: 5px;
   font-size: 25px;
   background-color: #fff;
   border: 1px solid #0088ff;
+  border-radius: 5px;
   max-width: 300px;
+  margin: 20px 0;
+  padding: 10px 15px 15px 20px;
 }
 #math .minibox {
   border: 1px solid #0088ff;
