@@ -61,9 +61,10 @@ section {
   padding: 10px 15px 15px 20px;
 }
 #math .minibox {
+  text-align: center;
   border: 1px solid #0088ff;
   border-radius: 10px;
-  background-color: #e9e7e7;
+  background-color: #fff;
   min-width: 252px;
   max-width: 252px;
   min-height: 150px;
