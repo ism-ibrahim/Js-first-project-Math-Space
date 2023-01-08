@@ -23,38 +23,38 @@ section {
   height: 830px;
 }
 #math .textbox h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
-  color: #0088ff;
+  color: #f09c00;
   margin-top: 10px;
 }
 #math .textbox h2 {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 700;
-  color: #0088ff;
+  color: #f09c00;
   padding: 30px;
 }
 #math .btn {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
-  border: 1px solid #0088ff;
+  border: 1px solid #f09c00;
   border-radius: 10px;
   background-color: #fff;
-  color: #0088ff;
+  color: #f09c00;
   max-width: 265px;
   padding: 10px 30px;
   margin-bottom: 25px;
 }
 #math .btn:hover {
   cursor: pointer;
-  background-color: #0088ff;
+  background-color: #f09c00;
   color: #fff;
 }
 #math input {
   font-size: 25px;
   background-color: #fff;
-  border: 1px solid #0088ff;
+  border: 1px solid #f09c00;
   border-radius: 5px;
   max-width: 300px;
   margin: 20px 0;
@@ -62,7 +62,7 @@ section {
 }
 #math .minibox {
   text-align: center;
-  border: 1px solid #0088ff;
+  border: 1px solid #f09c00;
   border-radius: 10px;
   background-color: #fff;
   min-width: 265px;
@@ -75,7 +75,7 @@ section {
   text-align: center;
   font-size: 23px;
   margin: 5px;
-  border: 2px solid #0088ff;
+  border: 2px solid #f09c00;
   border-radius: 45px;
   padding: 10px;
 }/*# sourceMappingURL=style.css.map */
