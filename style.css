@@ -56,9 +56,9 @@ section {
   background-color: #fff;
   border: 1px solid #055dd7;
   border-radius: 5px;
-  max-width: 300px;
+  max-width: 310px;
   margin: 20px 0;
-  padding: 10px 15px 15px 20px;
+  padding: 10px 20px 15px;
 }
 #math .minibox {
   text-align: center;
