@@ -1,5 +1,5 @@
 #math
-    background-image: url("assets/bg-img-math.jpeg")
+    background-image: url("assets/bg-img.jpeg")
     background-position: center
     background-size: cover
     background-repeat: repeat
@@ -8,39 +8,40 @@
         h1
             font-size: 70px
             font-weight: 700
-            color: #f09c00
+            color: #055dd7
             margin-top: 10px
         h2
             font-size: 50px
             font-weight: 700
-            color: #f09c00
+            color: #055dd7
             padding: 30px
     .btn
         text-align: center
         font-size: 25px
         font-weight: 700
-        border: 1px solid #f09c00
+        border: 1px solid #055dd7
         border-radius: 10px
-        background-color: #fff 
-        color: #f09c00
+        background-color: #fff
+        color: #055dd7
         max-width: 265px
         padding: 10px 30px
         margin-bottom: 25px
         &:hover
             cursor: pointer
-            background-color: #f09c00
+            background-color: #055dd7
             color: #fff
     input
         font-size: 25px
         background-color: #fff
-        border: 1px solid #f09c00
+        border: 1px solid #055dd7
         border-radius: 5px
         max-width: 300px
         margin: 20px 0
         padding: 10px 15px 15px 20px
+        scroll-behavior: 
     .minibox
         text-align: center
-        border: 1px solid #f09c00
+        border: 1px solid #055dd7
         border-radius: 10px
         background-color: #fff
         min-width: 265px
@@ -52,6 +53,17 @@
             text-align: center
             font-size: 23px
             margin: 5px
-            border: 2px solid #f09c00
+            border: 2px solid #055dd7
             border-radius: 45px
             padding: 10px
+    @media screen and ( min-height: 320px ) and ( max-width: 767px )
+        padding: 22px 0px
+        .textbox
+            h1,h2
+                font-size: 35px
+                text-shadow: 2px 2px 2px #fff
+            h2
+                font-size: 32px
+        .btn
+            font-size: 22px
+            padding: 7px 25px
